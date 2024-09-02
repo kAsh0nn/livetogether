@@ -38,4 +38,4 @@
 ## 使用素材
 
 実装機能リスト
-https://docs.google.com/spreadsheets/d/1Ldfrb8skMEG5_IuS3d6vpsXY5dO9pKO7bc1UTF5Byhc/edit?usp=drive_link
+https://docs.google.com/spreadsheets/d/1KDvROcVMzODXz3zw4JoJ6Wk1JskgkWnV9cjunWL5nRQ/edit?usp=sharing
