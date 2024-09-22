@@ -2,15 +2,14 @@
  <div class="mx-auto" style="width: 600px;">
 
 <table class="table">
-  <tbody>
-
+     <tbody>
      <th>name</th>
-    <th> <%= @user.name %> </tr>
+     <th> <%= @user.name %> </tr>
      <th>introduction</th>
    　 <th><%= @user.introduction %> </th>
-    </tbody>
-    </table>
-    <%= link_to "編集", edit_user_path(@user)  %>
-　　 <%= link_to "退会", confirm_path(@user) %>
+     </tbody>
+     </table>
+     <%= link_to "編集", edit_user_path(@user)  %>
+　   <%= link_to "退会", confirm_path(@user) %>
  </div>
-  </div>
+ </div>
