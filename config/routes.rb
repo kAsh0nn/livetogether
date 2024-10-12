@@ -7,7 +7,8 @@ devise_for :users
 root to: 'homes#top'
    resources :users, only: [:show, :edit, :create, :index, :update, :destroy]
    resources :posts, only: [ :edit, :create, :index, :destroy]
-   resources :comments, only: [:show, :index,:new, :create]
+   resources :comments, only: [ :index,:new, :create, :edit, :update]
    resources :groups, only: [:create, :index, :destroy]
    resources :chats, only: [ :create, :index, :destroy]
+    delete '/comments/:id' => 'comments#destroy', as: 'destroy'
 end
